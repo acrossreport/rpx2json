@@ -88,6 +88,11 @@ This repository is provided for evaluation purposes only.
 
 ---
 
+## Download
+
+Download executable from Releases:
+https://github.com/acrossreport/rpx2json/releases
+
 ## Related
 
 * ACR (Across Report)
