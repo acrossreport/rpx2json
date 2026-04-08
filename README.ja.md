@@ -14,7 +14,7 @@ English version → README.md
 ## 概要
 
 rpx2json は、ActiveReports で作成された RPX（帳票定義）を
-ACR（Across Report）で利用可能な JSON 形式へ変換するコマンドラインツールです。
+ACR（Across Report）で利用可能な JSON 形式（帳票定義）へ変換するコマンドラインツールです。
 
 既存の帳票資産をそのまま活用しながら、ACR環境への移行を支援します。
 
@@ -47,7 +47,7 @@ https://github.com/acrossreport/rpx2json/releases
 
 コマンドプロンプトから実行します。
 
-```id="ja_usage01"
+```bash
 rpx2json.exe sample.rpx
 ```
 
@@ -93,5 +93,3 @@ rpx2json.exe sample.rpx
 
 本リポジトリは公開版です。
 内部実装は別リポジトリにて管理されています。
-
-
