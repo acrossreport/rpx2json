@@ -45,7 +45,7 @@ https://github.com/acrossreport/rpx2json/releases
 Run from Command Prompt:
 
 ```bash
-rpx2acr.exe sample.rpx
+rpx2json.exe sample.rpx
 ```
 
 ---
