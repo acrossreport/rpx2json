@@ -15,7 +15,7 @@ RPX (ActiveReports) files to ACR (JSON) converter.
 
 This tool converts RPX files (ActiveReports report definitions) into ACR (Across Report) JSON format.
 
-This repository provides a **public limited version** for evaluation and testing.
+This repository provides a public version of the RPX to JSON conversion tool.
 
 ---
 
@@ -36,7 +36,6 @@ This repository provides a **public limited version** for evaluation and testing
 ## Download
 
 Download the executable from Releases:
-
 https://github.com/acrossreport/rpx2json/releases
 
 ---
@@ -46,7 +45,7 @@ https://github.com/acrossreport/rpx2json/releases
 Run from Command Prompt:
 
 ```bash
-rpx2json.exe sample.rpx
+rpx2acr.exe sample.rpx
 ```
 
 ---
@@ -59,17 +58,16 @@ Outputs JSON to standard output.
 
 ## Notes
 
-* This is a **public edition (limited features)**
-* The full conversion engine is **not included**
-* Some layout and features are not converted
+* Some layout and features may not be fully converted
+* Full conversion capabilities are managed separately
 
 ---
 
-## Supported (Public Edition)
+## Supported
 
 * Basic layout structure
 * Section information
-* Control data (limited)
+* Control data
 
 ---
 
@@ -84,17 +82,10 @@ Outputs JSON to standard output.
 ## License
 
 The internal implementation (`rpx2json-internal`) is not public.
-This repository is provided for evaluation purposes only.
 
 ---
-
-## Download
-
-Download executable from Releases:
-https://github.com/acrossreport/rpx2json/releases
 
 ## Related
 
 * ACR (Across Report)
 * ActiveReports
-
